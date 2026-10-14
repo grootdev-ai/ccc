@@ -48,6 +48,7 @@ This fires **automatically**, whether the user runs simple share, feedback, or e
 - For **simple share**: run `htmldrop init` once (sets up Surge account + subdomain)
 - For **feedback/converge**: run `htmldrop auth setup` once (generates an author API key in `~/.htmldrop/config.json`)
 - For **edit mode**: nothing — it's fully local (no `init`, no Surge, no auth key). Lowest-friction entry point.
+- For **version history and the language check** (`scripts/`): Python 3, standard library only. Nothing to install.
 
 ## Critical Rules
 
